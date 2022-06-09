@@ -1,0 +1,73 @@
+@use "../abstracts/vars";
+@use "../abstracts/mixins";
+
+h1 {
+  font-family: vars.$displayfont;
+  font-size: 4rem;
+  text-align: center;
+  cursor: default;
+  @include mixins.bp-medium {
+    font-size: 5rem;
+  }
+  font-weight: 200;
+  color: white;
+  //text-shadow: 0px 0px 22px vars.$lightneonblue;
+  //color: vars.$secondary;
+}
+
+h2 {
+  font-family: vars.$displayfont;
+  font-weight: 200;
+  font-size: 2rem;
+  @include mixins.bp-medium {
+    font-size: 3rem;
+  }
+  color: white;
+}
+
+h3 {
+  font-family: vars.$paragraphfont;
+  font-size: 1.5rem;
+  @include mixins.bp-medium {
+    font-size: 1.8rem;
+  }
+}
+
+h4 {
+  font-family: vars.$paragraphfont;
+  font-size: 1.2rem;
+  // color: vars.$secondary;
+}
+
+p {
+  font-family: vars.$paragraphfont;
+  font-size: 1rem;
+  @include mixins.bp-medium {
+    font-size: 1.1rem;
+  }
+  line-height: 2.5rem;
+  color: white;
+  //  color: vars.$secondary;
+}
+.link-p {
+  font-family: vars.$paragraphfont;
+  font-weight: 700;
+  font-size: 1.2rem;
+
+  text-decoration: none;
+  color: white;
+  //text-shadow: 4px 4px black;
+}
+
+a {
+  font-family: vars.$paragraphfont;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  //text-shadow: 4px 4px black;
+}
+
+button {
+  font-family: vars.$paragraphfont;
+  color: vars.$white;
+}

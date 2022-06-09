@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199.48" height="190.01" viewBox="0 0 199.48 190.01">
+  <g id="sakura_neutral" transform="translate(-0.004 0.001)">
+    <g id="b">
+      <path id="Path_277" data-name="Path 277" d="M182.831,73.977l6.184-11.705-3.615-3.01c-5.654-4.668-12.955-8.835-21.861-9.686,0,0-2.564-.214-3.968-.158a44.1,44.1,0,0,0-6.677.8l-.947.185c-4.686.836-15.136,4.745-23.686,12.052l-.17.146.012-.029C132.317,52.163,132.7,41.039,132,36.343l-.126-.954a43.75,43.75,0,0,0-1.367-6.568c-.394-1.345-1.416-3.7-1.416-3.7-3.652-8.146-9.942-13.715-16.182-17.57L108.891,5.1l-9.149,9.58L90.593,5.1,86.579,7.551c-6.24,3.854-12.53,9.424-16.182,17.57,0,0-1.022,2.355-1.416,3.7a43.75,43.75,0,0,0-1.367,6.568l-.126.954c-.7,4.7-.322,15.82,3.893,26.233l.012.029c-.056-.048-.114-.1-.17-.146-8.55-7.306-19-11.215-23.686-12.052l-.947-.185a43.975,43.975,0,0,0-6.677-.8c-1.4-.057-3.968.158-3.968.158-8.906.852-16.206,5.019-21.861,9.686l-3.615,3.01,6.184,11.705L4.629,79.566l1.053,4.578c1.671,7.128,4.956,14.85,11.532,20.9,0,0,1.912,1.717,3.064,2.52a44.033,44.033,0,0,0,5.805,3.388l.867.424c4.239,2.161,14.931,5.353,26.171,4.693.593-.035,1.206-.075,1.829-.119-.458.274-.907.547-1.343.814-9.594,5.876-16.528,14.6-18.764,18.79l-.467.842a43.806,43.806,0,0,0-2.815,6.092c-.485,1.316-1.066,3.815-1.066,3.815-1.917,8.716-.178,16.923,2.544,23.721l1.765,4.355L47.871,172.1l1.649,13.127,4.692.4c7.316.6,15.693-.153,23.484-4.539,0,0,2.225-1.288,3.344-2.137a43.944,43.944,0,0,0,5.013-4.472l.67-.693c3.293-3.292,9.419-12.162,12.315-22.74,2.816,10.521,8.8,19.362,12.043,22.666l.664.7a43.881,43.881,0,0,0,4.97,4.52c1.111.859,3.323,2.169,3.323,2.169,7.749,4.462,16.118,5.293,23.439,4.765l4.7-.359,1.775-13.111,13.044,2.408,1.807-4.338c2.787-6.772,4.606-14.962,2.773-23.7,0,0-.558-2.505-1.029-3.825a43.785,43.785,0,0,0-2.756-6.119l-.459-.847c-2.194-4.214-9.044-13-18.581-18.97-.626-.392-1.278-.794-1.951-1.2,1.249.111,2.439.192,3.572.258,11.24.66,21.932-2.532,26.171-4.693l.867-.424a43.922,43.922,0,0,0,5.8-3.388c1.153-.8,3.064-2.52,3.064-2.52,6.575-6.051,9.86-13.774,11.532-20.9l1.053-4.578-12.024-5.589h0Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+    </g>
+    <g id="c">
+      <g id="Group_313" data-name="Group 313">
+        <ellipse id="Ellipse_262" data-name="Ellipse 262" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(109.465 56.965)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_287" data-name="Line 287" y1="35.71" x2="11.411" transform="translate(101.533 61.925)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Group_314" data-name="Group 314">
+        <ellipse id="Ellipse_263" data-name="Ellipse 263" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(82.69 56.965)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_288" data-name="Line 288" x1="11.33" y1="34.673" transform="translate(86.975 62.962)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Group_315" data-name="Group 315">
+        <ellipse id="Ellipse_264" data-name="Ellipse 264" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(130.931 123.215)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_289" data-name="Line 289" x2="28.347" y2="20.762" transform="translate(104.504 104.676)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Group_316" data-name="Group 316">
+        <ellipse id="Ellipse_265" data-name="Ellipse 265" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(109.465 138.413)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_290" data-name="Line 290" x2="10.972" y2="34.334" transform="translate(101.29 105.161)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Group_317" data-name="Group 317">
+        <ellipse id="Ellipse_266" data-name="Ellipse 266" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(96.185 69.715)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_291" data-name="Line 291" y1="21.333" transform="translate(99.759 76.302)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <g id="Group_318" data-name="Group 318">
+        <line id="Line_292" data-name="Line 292" x1="11.867" y1="16.713" transform="translate(84.787 81.32)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_267" data-name="Ellipse 267" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(79.583 75.076)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_319" data-name="Group 319">
+        <line id="Line_293" data-name="Line 293" y1="17.227" x2="12.181" transform="translate(103.169 80.408)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_268" data-name="Ellipse 268" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(113.039 75.076)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_320" data-name="Group 320">
+        <line id="Line_294" data-name="Line 294" y1="20.763" x2="29.22" transform="translate(103.169 77.442)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_269" data-name="Ellipse 269" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(130.931 72.738)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_321" data-name="Group 321">
+        <line id="Line_295" data-name="Line 295" y1="5.716" x2="20.692" transform="translate(103.169 93.782)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_270" data-name="Ellipse 270" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(123.269 89.347)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_322" data-name="Group 322">
+        <line id="Line_296" data-name="Line 296" y1="0.181" x2="35.17" transform="translate(105.134 101.687)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_271" data-name="Ellipse 271" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(139.165 98.033)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_323" data-name="Group 323">
+        <line id="Line_297" data-name="Line 297" x2="20.251" y2="5.594" transform="translate(103.963 104.18)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_272" data-name="Ellipse 272" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(123.269 106.95)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_324" data-name="Group 324">
+        <line id="Line_298" data-name="Line 298" x2="11.152" y2="16.315" transform="translate(103.283 105.921)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_273" data-name="Ellipse 273" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(112.719 120.947)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_325" data-name="Group 325">
+        <line id="Line_299" data-name="Line 299" y1="21.41" transform="translate(99.759 106.101)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_274" data-name="Ellipse 274" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(96.185 126.217)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_326" data-name="Group 326">
+        <line id="Line_300" data-name="Line 300" x1="12.525" y2="17.142" transform="translate(84.129 105.921)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_275" data-name="Ellipse 275" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(79.116 120.947)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_327" data-name="Group 327">
+        <line id="Line_301" data-name="Line 301" x1="10.647" y2="33.319" transform="translate(87.448 106.209)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_276" data-name="Ellipse 276" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(83.157 138.413)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_328" data-name="Group 328">
+        <line id="Line_302" data-name="Line 302" x1="28.347" y2="20.762" transform="translate(67.104 104.676)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_277" data-name="Ellipse 277" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(61.4 123.215)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_329" data-name="Group 329">
+        <line id="Line_303" data-name="Line 303" x1="20.147" y2="5.055" transform="translate(74.18 104.322)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_278" data-name="Ellipse 278" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(69.176 106.21)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_330" data-name="Group 330">
+        <line id="Line_304" data-name="Line 304" y1="0.187" x2="36.238" transform="translate(59.213 101.591)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_279" data-name="Ellipse 279" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(53.166 98.033)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_331" data-name="Group 331">
+        <line id="Line_305" data-name="Line 305" x1="20.204" y1="5.581" transform="translate(75.247 93.782)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_280" data-name="Ellipse 280" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(69.176 89.347)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_332" data-name="Group 332">
+        <line id="Line_306" data-name="Line 306" x1="28.347" y1="20.763" transform="translate(67.592 78.117)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+        <ellipse id="Ellipse_281" data-name="Ellipse 281" cx="3.574" cy="3.564" rx="3.574" ry="3.564" transform="translate(61.4 72.738)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="d">
+      <ellipse id="Ellipse_282" data-name="Ellipse 282" cx="5.375" cy="5.36" rx="5.375" ry="5.36" transform="translate(94.364 96.418)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

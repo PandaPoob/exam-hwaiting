@@ -1,0 +1,95 @@
+@use "../abstracts/vars";
+@use "../abstracts/mixins";
+
+#program-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  border: 1px solid vars.$white;
+}
+
+#program-nav-container {
+  background-color: #120a2dc5; //vars.$background-blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  padding-block: 1rem;
+  box-shadow: 0px 0px 6px 2px vars.$white;
+  padding-inline: 1rem;
+  .nav-div {
+    background-color: vars.$white;
+    width: 2px;
+  }
+
+  @include mixins.bp-medium {
+    display: flex;
+    justify-content: center;
+  }
+
+  @include mixins.bp-large {
+    justify-content: space-evenly;
+  }
+
+  @include mixins.bp-wide {
+    padding-inline: 8rem;
+  }
+
+  @include mixins.bp-huge {
+    padding-inline: 12rem;
+  }
+
+  a {
+    transition: all 0.2s ease-in-out;
+  }
+}
+//a tags
+.pro-nav-links {
+  cursor: pointer;
+}
+
+#pro-nav-mon {
+  &:hover {
+    color: vars.$lightneonpink;
+    text-shadow: 0px 0px 22px vars.$lightneonpink;
+  }
+}
+
+#pro-nav-tue {
+  &:hover {
+    color: vars.$lightneonred;
+    text-shadow: 0px 0px 22px vars.$lightneonred;
+  }
+}
+#pro-nav-wed {
+  &:hover {
+    color: vars.$lightneonorange;
+    text-shadow: 0px 0px 22px vars.$lightneonorange;
+  }
+}
+#pro-nav-thu {
+  &:hover {
+    color: vars.$lightneonyellow;
+    text-shadow: 0px 0px 22px vars.$lightneonyellow;
+  }
+}
+#pro-nav-fri {
+  &:hover {
+    color: vars.$lightneongreen;
+    text-shadow: 0px 0px 22px vars.$lightneongreen;
+  }
+}
+
+#pro-nav-sat {
+  &:hover {
+    color: vars.$lightneonblue;
+    text-shadow: 0px 0px 22px vars.$lightneonblue;
+  }
+}
+#pro-nav-sun {
+  &:hover {
+    color: vars.$lightneonpurple;
+    text-shadow: 0px 0px 22px vars.$lightneonpurple;
+  }
+}

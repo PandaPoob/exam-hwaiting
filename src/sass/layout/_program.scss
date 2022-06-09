@@ -1,0 +1,387 @@
+@use "../abstracts/vars";
+@use "../abstracts/mixins";
+
+#program-header {
+  margin-block: 4rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  @include mixins.bp-medium {
+    margin-block: 6rem;
+  }
+}
+
+#program-header-img {
+  max-width: 7rem;
+}
+
+.day-section {
+  margin-block: 8rem 8rem;
+  text-align: center;
+  margin-inline: 1rem;
+  border-radius: 1rem;
+  padding-block: 1rem 4rem;
+
+  @include mixins.bp-huge {
+    margin-inline: 12rem;
+    margin-block: 8rem 8rem;
+  }
+
+  @include mixins.bp-1800 {
+    margin-inline: 16rem;
+  }
+
+  h2 {
+    color: vars.$white;
+    margin-block: 3rem 3rem;
+    font-family: vars.$displayfont;
+    font-size: 3rem;
+    font-style: italic;
+    @include mixins.bp-large {
+      font-size: 3.2rem;
+    }
+  }
+
+  h3 {
+    //color: vars.$background-blue;
+    font-family: vars.$paragraphfont;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+
+    //margin-block: 6rem 0.2rem;
+  }
+  h4 {
+    // color: vars.$background-blue;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.8px;
+  }
+  a {
+    display: grid;
+    margin-block: 4rem 0.2rem;
+    transition: all 0.2s ease-in-out;
+  }
+}
+.scene-container {
+  @include mixins.bp-large {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.scene-article {
+  @include mixins.bp-large {
+    width: 18rem;
+  }
+}
+
+.program-listitem,
+.program-listitem_2 {
+  display: inline-block;
+}
+
+.monday-section {
+  color: vars.$neonpink;
+  border: 10px solid vars.$neonpink;
+  box-shadow: 0px 0px 6px 2px vars.$lightneonpink;
+
+  hr {
+    color: vars.$neonpink;
+    border: 2px solid vars.$neonpink;
+    border-radius: 1rem;
+
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightpink;
+
+    &:hover {
+      color: vars.$neonpink;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+
+      &:hover {
+        color: vars.$neonpink;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      color: white;
+
+      &:hover {
+        color: vars.$neonpink;
+      }
+    }
+  }
+}
+
+.tuesday-section {
+  color: vars.$neonred;
+  border: 10px solid vars.$neonred;
+  box-shadow: 0px 0px 6px 2px vars.$lightneonred;
+
+  hr {
+    color: vars.$neonred;
+    border: 2px solid vars.$neonred;
+    border-radius: 1rem;
+
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightred;
+
+    &:hover {
+      color: vars.$neonred;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+
+      &:hover {
+        color: vars.$neonred;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      color: white;
+
+      &:hover {
+        color: vars.$neonred;
+      }
+    }
+  }
+}
+
+.wednesday-section {
+  color: vars.$neonorange;
+  border: 10px solid vars.$neonorange;
+  box-shadow: 0px 0px 6px 2px vars.$lightneonorange;
+
+  hr {
+    color: vars.$neonorange;
+    border: 2px solid vars.$neonorange;
+    border-radius: 1rem;
+
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightorange;
+    &:hover {
+      color: vars.$neonorange;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+      &:hover {
+        color: vars.$neonorange;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      &:hover {
+        color: vars.$neonorange;
+      }
+      color: white;
+    }
+  }
+}
+
+.thursday-section {
+  color: vars.$neonyellow;
+  border: 10px solid vars.$neonyellow;
+  box-shadow: 0px 0px 6px 2px vars.$lightneonyellow;
+
+  hr {
+    color: vars.$neonyellow;
+    border: 2px solid vars.$neonyellow;
+    border-radius: 1rem;
+    //box-shadow: 0px 0px 1px 0.5px vars.$lightneonpink;
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightyellow;
+
+    &:hover {
+      color: vars.$neonyellow;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+      &:hover {
+        color: vars.$neonyellow;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      color: white;
+      &:hover {
+        color: vars.$neonyellow;
+      }
+    }
+  }
+}
+
+.friday-section {
+  color: vars.$neongreen;
+  border: 10px solid vars.$neongreen;
+  box-shadow: 0px 0px 6px 2px vars.$lightneongreen;
+
+  hr {
+    color: vars.$neongreen;
+    border: 2px solid vars.$neongreen;
+    border-radius: 1rem;
+    //box-shadow: 0px 0px 1px 0.5px vars.$lightneonpink;
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightgreen;
+    &:hover {
+      color: vars.$neongreen;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+      &:hover {
+        color: vars.$neongreen;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      color: white;
+      &:hover {
+        color: vars.$neongreen;
+      }
+    }
+  }
+}
+
+.saturday-section {
+  color: vars.$neonblue;
+  border: 10px solid vars.$neonblue;
+  box-shadow: 0px 0px 6px 2px vars.$lightneonblue;
+
+  hr {
+    color: vars.$neonblue;
+    border: 2px solid vars.$neonblue;
+    border-radius: 1rem;
+
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightblue;
+    &:hover {
+      color: vars.$neonblue;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+      &:hover {
+        color: vars.$neonblue;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      color: white;
+      &:hover {
+        color: vars.$neonblue;
+      }
+    }
+  }
+}
+
+.sunday-section {
+  color: vars.$neonpurple;
+  border: 10px solid vars.$neonpurple;
+  box-shadow: 0px 0px 6px 2px vars.$lightneonpurple;
+
+  hr {
+    color: vars.$neonpurple;
+    border: 2px solid vars.$neonpurple;
+    border-radius: 1rem;
+
+    margin-inline: 0;
+    margin-block-start: 1rem;
+    @include mixins.bp-large {
+      margin-inline: 4rem;
+    }
+  }
+  a {
+    color: vars.$lightpurple;
+    &:hover {
+      color: vars.$neonpurple;
+    }
+  }
+
+  .program-listitem {
+    a:nth-child(odd) {
+      color: white;
+      &:hover {
+        color: vars.$neonpurple;
+      }
+    }
+  }
+
+  .program-listitem_2 {
+    a:nth-child(even) {
+      color: white;
+      &:hover {
+        color: vars.$neonpurple;
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+@use "../abstracts/vars";
+@use "../abstracts/mixins";
+
+#form-information {
+  margin-block: 8rem 4rem;
+  background-color: #e1d9e9;
+  padding-block: 2rem 2rem;
+  padding-inline: 1rem;
+  margin-inline: auto;
+  max-width: 90vw;
+  border-radius: 3px;
+
+  @include mixins.bp-medium {
+    max-width: 400px;
+  }
+
+  h2 {
+    text-align: center;
+    color: vars.$background-blue;
+    font-family: vars.$paragraphfont;
+    font-weight: 600;
+
+    margin-bottom: 2rem;
+  }
+
+  label {
+    font-family: vars.$paragraphfont;
+  }
+
+  input {
+    color: vars.$background-blue;
+    padding: 8px;
+    border-radius: 3px;
+
+    &:focus {
+      border: none;
+      outline: 0;
+      box-shadow: 0px 0px 6px 4px vars.$lightneonpurple;
+    }
+  }
+}
+
+.form-part {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#form-wrapper {
+  display: grid;
+}
+
+#login-submit {
+  margin-top: 1rem;
+  color: vars.$white;
+  padding-block: 0.6rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: vars.$lightneonpurple;
+  border: none;
+  font-size: 1rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0px 0px 22px vars.$lightneonpurple;
+  }
+}
+
+.error-msg {
+  font-size: 0.8rem;
+  color: red;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+//Profile
+
+#account-header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  padding-block: 4rem;
+  margin-block: 4rem 4rem;
+}
+
+#account-header-img {
+  max-width: 6rem;
+}
+
+#account-info {
+  border-top: 1px solid vars.$white;
+  border-bottom: 1px solid vars.$white;
+  box-shadow: 0px 0px 6px 2px vars.$white;
+  padding-block: 4rem;
+  padding-inline: 1rem;
+
+  p {
+    margin-top: 0.5rem;
+  }
+
+  @include mixins.bp-medium {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include mixins.bp-huge {
+    padding-inline: 8rem;
+  }
+
+  @include mixins.bp-1800 {
+    padding-inline: 14rem;
+  }
+}
+
+#account-info-left {
+  @include mixins.bp-medium {
+    margin-left: 4rem;
+  }
+}
+
+#account-fav-links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+
+  @include mixins.bp-medium {
+    justify-content: start;
+    gap: 2rem;
+  }
+}
+
+#fav-artist-link {
+  margin-right: 1rem;
+}
+
+#account-img {
+  max-width: 20rem;
+  margin-inline: auto;
+}
+
+#fav-list-notif {
+  text-align: center;
+  padding-inline: 1rem;
+  padding-block: 6rem 6rem;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.favlist-notif-link {
+  font-size: 1.1rem;
+}
+
+#fav-list {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+  margin-block: 4rem;
+
+  @include mixins.bp-medium {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+.fav-card {
+  border: 3px solid vars.$neonblue;
+  box-shadow: 0px 0px 6px 4px vars.$lightneonblue;
+  text-align: center;
+  padding: 1rem;
+  min-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  --webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  h2 {
+    font-family: vars.$paragraphfont;
+    font-weight: 400;
+    @include mixins.bp-medium {
+      font-size: 2.5rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    color: vars.$white;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  hr {
+    margin-block: 1rem;
+    border: 1px solid vars.$white;
+  }
+
+  p {
+    margin-left: 0.5rem;
+  }
+
+  #favlist-heart-icon {
+    align-self: flex-end;
+    width: 2rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,63 @@
+@use "../abstracts/vars";
+@use "../abstracts/mixins";
+
+body {
+  background-color: vars.$background-blue;
+}
+
+#main-landing {
+  overflow: hidden;
+}
+
+#header-landing {
+  background-size: cover;
+  background-position: 52% 10%;
+  height: 110vh;
+  width: 100vw;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin-top: -5rem;
+}
+
+#landing-buttons {
+  margin-top: 1rem;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.landing-button {
+  background-color: vars.$background-blue;
+  border-radius: 2px;
+  padding-block: 0.8rem;
+  padding-inline: 1.2rem;
+  cursor: pointer;
+  min-width: 10rem;
+  text-align: center;
+
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+#artist-button {
+  @include mixins.blue-button;
+  &:hover {
+    box-shadow: 0px 0px 22px vars.$lightneonblue;
+  }
+}
+
+#program-button {
+  @include mixins.pink-button;
+
+  &:hover {
+    box-shadow: 0px 0px 22px vars.$lightneonpink;
+  }
+}

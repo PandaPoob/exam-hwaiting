@@ -1,0 +1,382 @@
+@use "../abstracts/vars";
+@use "../abstracts/mixins";
+
+#header-logos-grid {
+  display: grid;
+  grid-template-columns: 47vw 54vw;
+
+  @include mixins.bp-medium {
+    grid-template-columns: 48vw 52vw;
+  }
+  @include mixins.bp-huge {
+    grid-template-columns: 49vw 51vw;
+  }
+}
+
+#header-logos {
+  grid-column: 2/3;
+  justify-content: space-between;
+  display: flex;
+}
+
+#home-logo {
+  height: auto;
+  width: 2.5rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 22px vars.$lightneonblue;
+  }
+}
+
+#profile-logo-container {
+  position: relative;
+  z-index: 3;
+  height: auto;
+  width: 2.7rem;
+  border-radius: 100%;
+}
+
+#profile-logo {
+  padding-inline: 2px;
+  padding-block: 2px 0;
+  cursor: pointer;
+}
+
+.open-profile {
+  border: 3px solid vars.$white;
+  border-bottom-color: vars.$background-blue;
+}
+
+#profile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: absolute;
+  z-index: 2;
+  top: calc(100% - 6px);
+  right: 0.8rem;
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  background-color: vars.$background-blue;
+  border: 3px solid vars.$white;
+  width: 60vw;
+
+  @include mixins.bp-large {
+    width: 40vw;
+  }
+
+  @include mixins.bp-huge {
+    width: 20vw;
+  }
+}
+
+#login-button {
+  padding-block: 0.6rem;
+  text-align: center;
+  background-color: vars.$white;
+  color: vars.$background-blue;
+
+  &:hover {
+    box-shadow: 0px 0px 8px vars.$lightneonblue;
+  }
+}
+
+#logout-button {
+  padding-block: 0.6rem;
+  text-align: center;
+  background-color: vars.$white;
+  color: vars.$background-blue;
+}
+
+#myprofile-button {
+  color: vars.$white;
+  line-height: 2rem;
+  border-bottom: 2px solid vars.$white;
+}
+
+#nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  transition: top 0.3s;
+}
+
+.navbar {
+  background-color: vars.$background-blue;
+  padding: 1.5rem 2rem 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+  height: 3.5rem;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+#bar1,
+#bar2,
+#bar3 {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: vars.$white;
+}
+
+@media (max-width: 640px) {
+  .hamburger {
+    display: block;
+    z-index: 6;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  #nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: vars.$background-blue;
+    padding: 10rem 3rem 3rem 3rem;
+    transition: ease-out;
+    --webkit-transition: all 0.3s ease-in-out;
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+  }
+
+  #nav-menu.active {
+    left: 0;
+  }
+  .inactive {
+    display: none !important;
+  }
+
+  .active1 {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .active2 {
+    opacity: 0;
+  }
+  .active3 {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+#nav-right-side {
+  display: flex;
+  justify-content: right;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+#nav-web-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-inactive {
+  display: none !important;
+}
+
+/* #nav-container {
+  position: relative;
+  z-index: 2;
+}
+
+#nav-menu {
+  a {
+    color: white;
+  }
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  li {
+    list-style: none;
+    transition: 0.2s ease-out;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .inactive {
+    display: none;
+  }
+  #burgermenu {
+    display: block;
+    cursor: pointer;
+    //position: fixed;
+    //left: 1rem;
+    // top: 1.5rem;
+    position: fixed;
+    z-index: 5;
+    margin-left: 0.8rem;
+    margin-top: -0.5rem;
+  }
+  #bar1,
+  #bar2,
+  #bar3 {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    --webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+
+
+  #menu {
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: vars.$background-blue;
+    padding: 10rem 3rem 3rem 3rem;
+    transition: ease-out;
+    --webkit-transition: all 0.3s ease-in-out;
+
+    @include mixins.bp-medium {
+      width: 24rem;
+      border-right: 3px solid vars.$neonpurple;
+      box-shadow: 0px 0px 6px 4px vars.$lightneonpurple;
+    }
+
+    ul {
+      text-align: center;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      @include mixins.bp-large {
+        justify-content: left;
+        text-align: left;
+      }
+    }
+    a:hover {
+      transform: scale(1.1);
+      text-shadow: 0px 0px 22px vars.$lightneonblue;
+    }
+  }
+} */
+
+/* #footer {
+  border-top: 3px solid vars.$white;
+  box-shadow: 0px 0px 6px 4px vars.$white;
+  background-color: vars.$background-blue;
+}
+ */
+///ANIMATIONS
+
+.invis {
+  opacity: 0;
+}
+// Taken from https://loading.io/css/
+.sv-heart-ld {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  transform-origin: 40px 40px;
+}
+.lds-heart div {
+  top: 32px;
+  left: 32px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+}
+.lds-heart div:before {
+  left: -24px;
+  border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+  top: -24px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
