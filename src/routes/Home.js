@@ -46,7 +46,7 @@ export default function Home() {
           style={{ backgroundImage: `url(${heroImg})` }}
         >
           <h1 className="invis" ref={landingHeadingRef}>
-            HWAITING PROGRAM
+            HWAITING FESTIVAL
           </h1>
           ;{/*      <img src={heroImg} alt="BigCo Inc. logo" /> */}
           <div ref={landingButtonsRef} className="invis" id="landing-buttons">
