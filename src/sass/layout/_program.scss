@@ -2,15 +2,27 @@
 @use "../abstracts/mixins";
 
 #program-header {
-  margin-block: 4rem;
-  margin-inline: 1rem;
+  background-size: cover;
+  background-position: 52% 10%;
+
+  min-height: 30vh;
   display: flex;
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
 
+  @include mixins.bp-large {
+    min-height: 40vh;
+  }
+}
+
+#program-header-content {
+  margin-inline: 1rem;
+  display: flex;
+  gap: 0.5rem;
+
   @include mixins.bp-medium {
-    margin-block: 6rem;
+    //margin-block: 6rem;
     gap: 2rem;
   }
 }

@@ -1,0 +1,298 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="400" viewBox="0 0 1920 400">
+  <defs>
+    <filter id="화_이_팅" x="21" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-2" x="139" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-3" x="257" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-3"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-4" x="375" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-4"/>
+      <feFlood flood-opacity="0.161" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-5" x="493" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-5"/>
+      <feFlood flood-opacity="0.161" result="color-5"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color-5"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-6" x="611" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-6"/>
+      <feFlood flood-opacity="0.161" result="color-6"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-6"/>
+      <feComposite operator="in" in="color-6"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-7" x="729" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-7"/>
+      <feFlood flood-opacity="0.161" result="color-7"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-7"/>
+      <feComposite operator="in" in="color-7"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-8" x="847" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-8"/>
+      <feFlood flood-opacity="0.161" result="color-8"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-8"/>
+      <feComposite operator="in" in="color-8"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-9" x="965" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-9"/>
+      <feFlood flood-opacity="0.161" result="color-9"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-9"/>
+      <feComposite operator="in" in="color-9"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-10" x="1083" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-10"/>
+      <feFlood flood-opacity="0.161" result="color-10"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-10"/>
+      <feComposite operator="in" in="color-10"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-11" x="1201" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-11"/>
+      <feFlood flood-opacity="0.161" result="color-11"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-11"/>
+      <feComposite operator="in" in="color-11"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-12" x="1319" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-12"/>
+      <feFlood flood-opacity="0.161" result="color-12"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-12"/>
+      <feComposite operator="in" in="color-12"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-13" x="1437" y="25" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-13"/>
+      <feFlood flood-opacity="0.161" result="color-13"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-13"/>
+      <feComposite operator="in" in="color-13"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-14" x="1555" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-14"/>
+      <feFlood flood-opacity="0.161" result="color-14"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-14"/>
+      <feComposite operator="in" in="color-14"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-15" x="1675" y="22" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-15"/>
+      <feFlood flood-opacity="0.161" result="color-15"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-15"/>
+      <feComposite operator="in" in="color-15"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="화_이_팅-16" x="1793" y="-8" width="107" height="382" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur-16"/>
+      <feFlood flood-opacity="0.161" result="color-16"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-16"/>
+      <feComposite operator="in" in="color-16"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-subsplash">
+      <rect width="1920" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="subsplash" clip-path="url(#clip-subsplash)">
+    <rect width="1920" height="400" fill="#120a2d"/>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-17" data-name="화
+이
+팅" transform="translate(21 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅)">
+        <text id="화_이_팅-18" data-name="화
+이
+팅" transform="translate(21 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-19" data-name="화
+이
+팅" transform="translate(139 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-2)">
+        <text id="화_이_팅-20" data-name="화
+이
+팅" transform="translate(139 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-21" data-name="화
+이
+팅" transform="translate(257 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-3)">
+        <text id="화_이_팅-22" data-name="화
+이
+팅" transform="translate(257 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-23" data-name="화
+이
+팅" transform="translate(375 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-4)">
+        <text id="화_이_팅-24" data-name="화
+이
+팅" transform="translate(375 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-25" data-name="화
+이
+팅" transform="translate(493 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-5)">
+        <text id="화_이_팅-26" data-name="화
+이
+팅" transform="translate(493 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-27" data-name="화
+이
+팅" transform="translate(611 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-6)">
+        <text id="화_이_팅-28" data-name="화
+이
+팅" transform="translate(611 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-29" data-name="화
+이
+팅" transform="translate(729 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-7)">
+        <text id="화_이_팅-30" data-name="화
+이
+팅" transform="translate(729 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-31" data-name="화
+이
+팅" transform="translate(847 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-8)">
+        <text id="화_이_팅-32" data-name="화
+이
+팅" transform="translate(847 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-33" data-name="화
+이
+팅" transform="translate(965 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-9)">
+        <text id="화_이_팅-34" data-name="화
+이
+팅" transform="translate(965 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-35" data-name="화
+이
+팅" transform="translate(1083 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-10)">
+        <text id="화_이_팅-36" data-name="화
+이
+팅" transform="translate(1083 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-37" data-name="화
+이
+팅" transform="translate(1201 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-11)">
+        <text id="화_이_팅-38" data-name="화
+이
+팅" transform="translate(1201 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-39" data-name="화
+이
+팅" transform="translate(1319 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-12)">
+        <text id="화_이_팅-40" data-name="화
+이
+팅" transform="translate(1319 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-41" data-name="화
+이
+팅" transform="translate(1437 25)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-13)">
+        <text id="화_이_팅-42" data-name="화
+이
+팅" transform="translate(1437 25)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-43" data-name="화
+이
+팅" transform="translate(1555 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-14)">
+        <text id="화_이_팅-44" data-name="화
+이
+팅" transform="translate(1555 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-45" data-name="화
+이
+팅" transform="translate(1675 22)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-15)">
+        <text id="화_이_팅-46" data-name="화
+이
+팅" transform="translate(1675 22)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <text id="화_이_팅-47" data-name="화
+이
+팅" transform="translate(1793 -8)" fill="#2d1c67" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#화_이_팅-16)">
+        <text id="화_이_팅-48" data-name="화
+이
+팅" transform="translate(1793 -8)" fill="#fff" font-size="100" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="109">화</tspan><tspan y="109" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="229">이</tspan><tspan y="229" font-family="SegoeUI, Segoe UI"></tspan><tspan x="0" y="349">팅</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
