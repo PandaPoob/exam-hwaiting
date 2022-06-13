@@ -105,7 +105,7 @@
 }
 
 .navbar {
-  background-color: vars.$background-blue;
+  background-color: transparent;
   padding: 1.5rem 2rem 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -212,11 +212,12 @@
   display: none !important;
 }
 
-/* #nav-container {
-  position: relative;
-  z-index: 2;
+#nav-container {
+  position: absolute;
+  width: 100vw;
+  top: 0;
 }
-
+/*
 #nav-menu {
   a {
     color: white;

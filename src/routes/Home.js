@@ -1,4 +1,4 @@
-import heroImg from "../images/splash_img.svg";
+import heroImg from "../images/splash1.webp";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
