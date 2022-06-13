@@ -3,6 +3,7 @@ import ArtistList from "../components/ArtistList";
 import FilterOptions from "../components/FilterOptions";
 import Footer from "../components/Footer";
 import vinylImg from "../images/vinyl.svg";
+import splashImg from "../images/subsplash.svg";
 
 function Artists(props) {
   const [dayFilter, setDayFilter] = useState("All Days");
@@ -16,9 +17,14 @@ function Artists(props) {
   return (
     <>
       <main id="artists-main">
-        <header id="artists-header">
-          <h1>Artists</h1>
-          <img id="artists-header-img" src={vinylImg} alt="Vinyl"></img>
+        <header
+          id="artists-header"
+          style={{ backgroundImage: `url(${splashImg})` }}
+        >
+          <div id="artists-header-content">
+            <h1>Artists</h1>
+            <img id="artists-header-img" src={vinylImg} alt="Vinyl"></img>
+          </div>
         </header>
         <FilterOptions
           setDayFilter={setDayFilter}
