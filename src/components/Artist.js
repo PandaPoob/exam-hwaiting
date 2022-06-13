@@ -28,7 +28,7 @@ export default function Artist(props) {
       className="article-artist-card"
       //ref={articleRef}
       /* regex s is spaces, flag: g global and looks through whole string, "" is what we want to replace it with >nothing<  */
-      to={`/artists/${props.artist.name.replace(/\s+/g, "+")}`}
+      to={`/artists/${props.artist.name.replace(/\s+|[/]/g, "+")}`}
     >
       <article className="artist-card">
         <h3

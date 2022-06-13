@@ -1,4 +1,4 @@
-import heroImg from "../images/splash_img.svg";
+import heroImg from "../images/splash1.webp";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -17,16 +17,16 @@ export default function Home() {
     const pButton = programButtonRef.current;
     tl.to(heading, { duration: 0.1, opacity: 0 });
     tl.to(heading, { duration: 0.5, opacity: 1 });
-    tl.to(heading, { duration: 0.5, textShadow: "0px 0px 22px #5affff" });
-    tl.to(heading, { duration: 0.15, textShadow: "0px 0px 0px #5affff" });
-    tl.to(heading, { duration: 0.15, textShadow: "0px 0px 22px #5affff" });
-    tl.to(heading, { duration: 0.15, textShadow: "0px 0px 0px #5affff" });
-    tl.to(heading, { duration: 0.1, textShadow: "0px 0px 22px #5affff" });
+    tl.to(heading, { duration: 0.5, textShadow: "0px 0px 22px #fc61ff" });
+    tl.to(heading, { duration: 0.15, textShadow: "0px 0px 0px #fc61ff" });
+    tl.to(heading, { duration: 0.15, textShadow: "0px 0px 22px #fc61ff" });
+    tl.to(heading, { duration: 0.15, textShadow: "0px 0px 0px #fc61ff" });
+    tl.to(heading, { duration: 0.1, textShadow: "0px 0px 22px #fc61ff" });
     tl.to(buttons, { duration: 0.1, opacity: 0, delay: 0.2 });
     tl.to(buttons, { duration: 0.6, opacity: 1 });
     tl.to(aButton, {
       duration: 0.2,
-      boxShadow: "0px 0px 8px #5affff",
+      boxShadow: "0px 0px 8px #fc61ff",
     });
     tl.to(
       pButton,

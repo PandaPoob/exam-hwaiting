@@ -37,6 +37,8 @@ footer {
   border-radius: 100%;
   background-color: transparent;
   border: none;
+  --webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer-social {
@@ -79,6 +81,8 @@ footer {
   width: 3rem;
   margin-inline: auto;
   cursor: pointer;
+  --webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   @include mixins.bp-large {
     margin-bottom: 0;

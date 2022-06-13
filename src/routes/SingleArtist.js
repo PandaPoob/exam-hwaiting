@@ -20,7 +20,15 @@ export default function SingleArtist({
   });
 
   let memberList = [];
-  const originalName = bandName.replace(/\+/g, " ");
+  let originalName;
+  console.log(bandName);
+  if (bandName === "K+DA") {
+    originalName = bandName.replace(/\+/g, "/");
+    console.log(originalName);
+  } else {
+    originalName = bandName.replace(/\+/g, " ");
+  }
+
   //let { name, members, genre, logoCredits, logo, bio   = artistInfo[0];}
   let artistSchedule = schedule.filter((a) => a.act === originalName);
   let artistInfo = artists.filter((artist) => artist.name === originalName);
@@ -164,7 +172,7 @@ export default function SingleArtist({
                 id="faved-button"
               >
                 <img id="faved-icon" src={faved} alt="favourite-icon" />
-                Remove from schedule
+                Remove from favourites
               </button>
             ) : (
               <button
@@ -177,7 +185,7 @@ export default function SingleArtist({
                   src={isLoggedIn ? activeFav : unactiveFav}
                   alt="favourite-icon"
                 />
-                {isLoggedIn ? "Add to schedule" : "Login to favourite"}
+                {isLoggedIn ? "Add to favourites" : "Login to favourite"}
               </button>
             )}
 

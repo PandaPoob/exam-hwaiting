@@ -3,7 +3,7 @@
 
 #sv-header {
   position: relative;
-  margin-block: 3rem 2rem;
+  margin-block: 6rem 2rem;
   min-height: 40vh;
   padding-block: 4rem 3.5rem;
   border-top: 1px solid vars.$white;
@@ -97,7 +97,7 @@
   background-color: vars.$background-blue;
   border-radius: 2px;
   padding-block: 0.8rem;
-  padding-inline: 1.2rem;
+  padding-inline: 0.8rem;
   font-size: 1.05rem;
   font-weight: 600;
   display: grid;
@@ -114,7 +114,7 @@
   background-color: vars.$neonred;
   border-radius: 2px;
   padding-block: 0.8rem;
-  padding-inline: 1.2rem;
+  padding-inline: 0.8rem;
   font-size: 1.05rem;
   font-weight: 600;
   display: grid;
@@ -164,7 +164,7 @@
 }
 
 #sv-second-section {
-  margin-block: 2rem 2rem;
+  margin-block: 2rem 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;

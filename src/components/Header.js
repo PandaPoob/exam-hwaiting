@@ -70,6 +70,7 @@ export default function Header({ isLoggedIn, setIsLoggedIn, setFav }) {
               <li className="nav-item">
                 <a
                   id="home-program-link"
+                  className="nav-link"
                   href="https://book-hwaiting.detblaarum.dk/"
                   target="_blank"
                   rel="noreferrer"
