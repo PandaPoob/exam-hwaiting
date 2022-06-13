@@ -22,41 +22,37 @@
   text-align: center;
   margin-inline: 1rem;
   border-radius: 1rem;
-  padding-block: 1rem 4rem;
+  padding-block: 0 2rem;
 
   @include mixins.bp-huge {
-    margin-inline: 12rem;
+    margin-inline: 14rem;
     margin-block: 8rem 8rem;
   }
 
   @include mixins.bp-1800 {
-    margin-inline: 16rem;
+    margin-inline: 18rem;
   }
 
   h2 {
     color: vars.$white;
-    margin-block: 3rem 3rem;
+    margin-block: 1.5rem 1.5rem;
     font-family: vars.$displayfont;
     font-size: 3rem;
     font-style: italic;
-    @include mixins.bp-large {
-      font-size: 3.2rem;
-    }
   }
 
   h3 {
     //color: vars.$background-blue;
     font-family: vars.$paragraphfont;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-style: italic;
     letter-spacing: 1px;
-
-    //margin-block: 6rem 0.2rem;
+    margin-block: 0 0.2rem;
   }
   h4 {
     // color: vars.$background-blue;
-    font-size: 1.1rem;
+    font-size: 1.03rem;
     font-weight: 400;
     font-style: italic;
     letter-spacing: 0.8px;
@@ -68,6 +64,7 @@
   }
 }
 .scene-container {
+  margin-top: -1.5rem;
   @include mixins.bp-large {
     display: flex;
     justify-content: space-around;
