@@ -31,11 +31,11 @@ body {
 
 .landing-button {
   background-color: vars.$background-blue;
-  border-radius: 2px;
+  border-radius: 5px;
   padding-block: 0.8rem;
   padding-inline: 1.2rem;
   cursor: pointer;
-  min-width: 10rem;
+  min-width: 9rem;
   text-align: center;
 
   -webkit-transition: 0.3s ease-in-out;
