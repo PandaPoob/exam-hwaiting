@@ -8,6 +8,7 @@ import SatProgram from "../components/programs/SatProgram";
 import SunProgram from "../components/programs/SunProgram";
 import Footer from "../components/Footer";
 import rainbowImg from "../images/rainbow.svg";
+import { Link } from "react-scroll";
 
 export default function Program(props) {
   //console.log(props.schedule);
@@ -34,6 +35,18 @@ export default function Program(props) {
         <FriProgram cleanSchedule={cleanSchedule}></FriProgram>
         <SatProgram cleanSchedule={cleanSchedule}></SatProgram>
         <SunProgram cleanSchedule={cleanSchedule}></SunProgram>
+        <div id="pro-top-button-container">
+          <Link
+            to="program-main"
+            id="pro-top-button"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={300}
+          >
+            Back to top
+          </Link>
+        </div>
       </main>
       <Footer></Footer>
     </>

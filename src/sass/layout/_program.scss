@@ -392,3 +392,31 @@
     }
   }
 }
+
+#sunday-section {
+  margin-block: 4rem 8rem;
+
+  @include mixins.bp-medium {
+    margin-block: 8rem 2rem;
+  }
+}
+
+#pro-top-button {
+  text-align: center;
+  cursor: pointer;
+  margin-block: 2rem 4rem;
+  border: 2px solid white;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  box-shadow: 0px 0px 2px 1px white;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0px 0px 4px 2px white;
+  }
+}
+
+#pro-top-button-container {
+  display: flex;
+  justify-content: center;
+}
