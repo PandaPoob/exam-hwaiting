@@ -48,9 +48,9 @@ body {
 }
 
 #artist-button {
-  @include mixins.blue-button;
+  @include mixins.pink-button;
   &:hover {
-    box-shadow: 0px 0px 22px vars.$lightneonblue;
+    box-shadow: 0px 0px 22px vars.$lightneonpink;
   }
 }
 
