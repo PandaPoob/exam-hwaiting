@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import ArtistList from "../components/ArtistList";
 import FilterOptions from "../components/FilterOptions";
 import Footer from "../components/Footer";
 import vinylImg from "../images/vinyl.svg";
 import arrow from "../images/arrow_up.svg";
 import splashImg from "../images/subsplash.svg";
-import { Link } from "react-scroll";
 
 function Artists(props) {
   const [genreFilter, setGenreFilter] = useState("");
@@ -13,9 +13,27 @@ function Artists(props) {
   const [sort, setSort] = useState("name");
   const [sortDir, setSortDir] = useState("asc");
   const [artistsLength, setArtistsLength] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(0);
   //const [fullArtistList, setFullArtistList] = useState(makeList(artists, schedule))
   //navn på array - det er det der er state, navn på funktion - det skal kalde state (rebuilde)
-  console.log(artistsLength);
+  /*   const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+ */
+  /*  if (scrollPosition > 500) {
+
+  }
+ */
+  console.log(window.pageYOffset);
   return (
     <>
       <main id="artists-main">
