@@ -1,4 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-scroll";
 import ArtistList from "../components/ArtistList";
 import FilterOptions from "../components/FilterOptions";
@@ -13,27 +15,30 @@ function Artists(props) {
   const [sort, setSort] = useState("name");
   const [sortDir, setSortDir] = useState("asc");
   const [artistsLength, setArtistsLength] = useState(0);
-  const [scrollPosition, setScrollPosition] = useState(0);
-  //const [fullArtistList, setFullArtistList] = useState(makeList(artists, schedule))
-  //navn på array - det er det der er state, navn på funktion - det skal kalde state (rebuilde)
-  /*   const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollPosition(position);
-  };
+
+  gsap.registerPlugin(ScrollTrigger);
+  const buttonRef = useRef();
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    const btn = buttonRef.current;
+    gsap.fromTo(
+      btn,
+      {
+        autoAlpha: 0,
+      },
+      {
+        duration: 0.5,
+        autoAlpha: 1,
+        ease: "none",
+        scrollTrigger: {
+          trigger: btn,
+          start: "top center+=100",
+          scrub: true,
+        },
+      }
+    );
+  });
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
- */
-  /*  if (scrollPosition > 500) {
-
-  }
- */
-  console.log(window.pageYOffset);
   return (
     <>
       <main id="artists-main">
@@ -63,20 +68,19 @@ function Artists(props) {
           sortDir={sortDir}
           setArtistsLength={setArtistsLength}
         ></ArtistList>
-        {artistsLength >= 9 ? (
-          <div id="art-top-button-container">
-            <Link
-              to="artists-main"
-              id="art-top-button"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={300}
-            >
-              <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
-            </Link>
-          </div>
-        ) : null}
+
+        <div id="art-top-button-container" ref={buttonRef}>
+          <Link
+            to="artists-main"
+            id="art-top-button"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={300}
+          >
+            <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
+          </Link>
+        </div>
       </main>
       <Footer></Footer>
     </>

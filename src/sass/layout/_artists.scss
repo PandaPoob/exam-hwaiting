@@ -245,9 +245,9 @@
   transform: translateX(-5%);
 }
 
-#art-top-button-container {
+#art-top-button {
   position: fixed;
-  bottom: 30px;
+  bottom: 100px;
   right: 10%;
   font-size: 1rem;
   cursor: pointer;
@@ -255,6 +255,7 @@
   padding-block: 0.6rem;
   padding-inline: 0.8rem;
   border-radius: 5px;
+  z-index: 5;
 }
 
 #arrow-up-img {
