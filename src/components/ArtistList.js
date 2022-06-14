@@ -3,32 +3,12 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
 export default function ArtistList({
-  schedule,
   artists,
-  dayFilter,
   genreFilter,
   searchInput,
   sort,
   sortDir,
 }) {
-  /*   //finding the days that match whatever the filter is and put them in array
-  let filteredSchedule = [];
-  schedule.forEach((d) => {
-    if (d.day === dayFilter || dayFilter === "All Days") {
-      filteredSchedule.push(d);
-    }
-  });
-  //compare names and if they match push to new array
-  //for each band that has same name as objects in array push that band to new array
-  let dayFilterData = [];
-  artists.forEach((band) => {
-    filteredSchedule.forEach((a) => {
-      if (band.name.includes(a.act)) {
-        dayFilterData.push(band);
-      }
-    });
-  });
- */
   //genre filter
   let filteredArtists = [];
   filteredArtists =
@@ -76,14 +56,7 @@ export default function ArtistList({
   let artistsList = copySortedArtists.map((a) => (
     <Artist key={a.name} artist={a} />
   ));
-  /* 
-  if (artists.length === 0) {
-    console.log("LOADING");
-  } else if (artistsList.length === 0 && artists.length > 0) {
-    console.log("NO RESULTS");
-  } else {
-    console.log("SHOWING LIST");
-  } */
+
   const artistListRef = useRef();
   useEffect(() => {
     const artistList = artistListRef.current;

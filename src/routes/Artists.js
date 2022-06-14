@@ -3,7 +3,9 @@ import ArtistList from "../components/ArtistList";
 import FilterOptions from "../components/FilterOptions";
 import Footer from "../components/Footer";
 import vinylImg from "../images/vinyl.svg";
+import arrow from "../images/arrow_up.svg";
 import splashImg from "../images/subsplash.svg";
+import { Link } from "react-scroll";
 
 function Artists(props) {
   const [genreFilter, setGenreFilter] = useState("");
@@ -41,6 +43,19 @@ function Artists(props) {
           setSort={setSort}
           sortDir={sortDir}
         ></ArtistList>
+
+        <div id="art-top-button-container">
+          <Link
+            to="artists-main"
+            id="art-top-button"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={300}
+          >
+            <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
+          </Link>
+        </div>
       </main>
       <Footer></Footer>
     </>
