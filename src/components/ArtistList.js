@@ -11,7 +11,7 @@ export default function ArtistList({
   sort,
   sortDir,
 }) {
-  //finding the days that match whatever the filter is and put them in array
+  /*   //finding the days that match whatever the filter is and put them in array
   let filteredSchedule = [];
   schedule.forEach((d) => {
     if (d.day === dayFilter || dayFilter === "All Days") {
@@ -28,13 +28,13 @@ export default function ArtistList({
       }
     });
   });
-
+ */
   //genre filter
   let filteredArtists = [];
   filteredArtists =
     genreFilter === ""
-      ? dayFilterData
-      : dayFilterData.filter((artist) => artist.genre === genreFilter);
+      ? artists
+      : artists.filter((artist) => artist.genre === genreFilter);
 
   //search filter
   let searchedFilter = [];

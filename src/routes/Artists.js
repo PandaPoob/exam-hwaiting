@@ -6,7 +6,6 @@ import vinylImg from "../images/vinyl.svg";
 import splashImg from "../images/subsplash.svg";
 
 function Artists(props) {
-  const [dayFilter, setDayFilter] = useState("All Days");
   const [genreFilter, setGenreFilter] = useState("");
   const [searchInput, setSearchInput] = useState("");
   const [sort, setSort] = useState("name");
@@ -27,7 +26,6 @@ function Artists(props) {
           </div>
         </header>
         <FilterOptions
-          setDayFilter={setDayFilter}
           setGenreFilter={setGenreFilter}
           genreFilter={genreFilter}
           setSearchInput={setSearchInput}
@@ -37,7 +35,6 @@ function Artists(props) {
         <ArtistList
           schedule={props.schedule}
           artists={props.artists}
-          dayFilter={dayFilter}
           genreFilter={genreFilter}
           searchInput={searchInput}
           sort={sort}
