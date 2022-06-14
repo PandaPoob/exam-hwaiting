@@ -14,7 +14,6 @@ function Artists(props) {
   const [searchInput, setSearchInput] = useState("");
   const [sort, setSort] = useState("name");
   const [sortDir, setSortDir] = useState("asc");
-  const [artistsLength, setArtistsLength] = useState(0);
 
   gsap.registerPlugin(ScrollTrigger);
   const buttonRef = useRef();
@@ -66,7 +65,6 @@ function Artists(props) {
           sort={sort}
           setSort={setSort}
           sortDir={sortDir}
-          setArtistsLength={setArtistsLength}
         ></ArtistList>
 
         <div id="art-top-button-container" ref={buttonRef}>

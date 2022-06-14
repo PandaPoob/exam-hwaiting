@@ -8,7 +8,6 @@ export default function ArtistList({
   searchInput,
   sort,
   sortDir,
-  setArtistsLength,
 }) {
   //genre filter
   let filteredArtists = [];
@@ -67,8 +66,6 @@ export default function ArtistList({
       { duration: 0.4, autoAlpha: 0 },
       { duration: 0.4, autoAlpha: 1, delay: 0.2 }
     );
-
-    setArtistsLength(artistsList.length);
   });
 
   return (
