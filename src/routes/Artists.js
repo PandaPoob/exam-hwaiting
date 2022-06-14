@@ -12,9 +12,10 @@ function Artists(props) {
   const [searchInput, setSearchInput] = useState("");
   const [sort, setSort] = useState("name");
   const [sortDir, setSortDir] = useState("asc");
+  const [artistsLength, setArtistsLength] = useState(0);
   //const [fullArtistList, setFullArtistList] = useState(makeList(artists, schedule))
   //navn på array - det er det der er state, navn på funktion - det skal kalde state (rebuilde)
-
+  console.log(artistsLength);
   return (
     <>
       <main id="artists-main">
@@ -42,20 +43,22 @@ function Artists(props) {
           sort={sort}
           setSort={setSort}
           sortDir={sortDir}
+          setArtistsLength={setArtistsLength}
         ></ArtistList>
-
-        <div id="art-top-button-container">
-          <Link
-            to="artists-main"
-            id="art-top-button"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={300}
-          >
-            <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
-          </Link>
-        </div>
+        {artistsLength >= 9 ? (
+          <div id="art-top-button-container">
+            <Link
+              to="artists-main"
+              id="art-top-button"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={300}
+            >
+              <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
+            </Link>
+          </div>
+        ) : null}
       </main>
       <Footer></Footer>
     </>
