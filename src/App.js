@@ -105,7 +105,13 @@ function App() {
           />
           <Route
             path="artists"
-            element={<Artists artists={artists} schedule={schedule} />}
+            element={
+              <Artists
+                artists={artists}
+                schedule={schedule}
+                isLoggedIn={isLoggedIn}
+              />
+            }
           />
           <Route path="program" element={<Program schedule={schedule} />} />
           <Route

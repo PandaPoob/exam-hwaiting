@@ -189,7 +189,6 @@
 
 .artist-title {
   z-index: 1;
-  position: relative;
   background-color: #120a2da9;
   padding-inline: 1rem;
   padding-block: 0.3rem;
@@ -214,6 +213,23 @@
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
   }
+}
+
+#card-fav-btn {
+  background-color: #120a2da9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  border: none;
+  border-radius: 2px;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+#card-fav-icon {
+  max-width: 2.5rem;
+
+  padding: 0.4rem;
 }
 
 #artists-loading {

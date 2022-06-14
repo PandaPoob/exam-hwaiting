@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import unFaved from "../images/active-fav.svg";
 
 export default function Artist(props) {
   const articleRef = useRef();
@@ -41,7 +42,13 @@ export default function Artist(props) {
           }
         >
           {props.artist.name}
-        </h3>
+        </h3>{" "}
+        {props.isLoggedIn ? (
+          <button id="card-fav-btn">
+            {" "}
+            <img id="card-fav-icon" src={unFaved} alt="favourite-icon" />
+          </button>
+        ) : null}
         <img
           className="artist-card-img"
           src={

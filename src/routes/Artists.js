@@ -65,6 +65,7 @@ function Artists(props) {
           sort={sort}
           setSort={setSort}
           sortDir={sortDir}
+          isLoggedIn={props.isLoggedIn}
         ></ArtistList>
 
         <div id="art-top-button-container" ref={buttonRef}>
