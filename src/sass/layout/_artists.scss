@@ -26,6 +26,7 @@
   margin-inline: 1rem;
   display: flex;
   gap: 2rem;
+  opacity: 0;
 }
 
 #artists-header-img {
@@ -259,6 +260,12 @@
 .article-offset-ani {
   transform: translateY(5%);
   transform: translateX(-5%);
+}
+
+#art-top-button-container {
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 #art-top-button {

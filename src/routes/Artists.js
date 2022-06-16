@@ -17,25 +17,32 @@ function Artists(props) {
 
   gsap.registerPlugin(ScrollTrigger);
   const buttonRef = useRef();
+  const headerRef = useRef();
+  const imgRef = useRef();
 
   useEffect(() => {
     const btn = buttonRef.current;
-    gsap.fromTo(
-      btn,
-      {
-        autoAlpha: 0,
-      },
-      {
-        duration: 0.5,
-        autoAlpha: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: btn,
-          start: "top center+=100",
-          scrub: true,
-        },
-      }
-    );
+    const header = headerRef.current;
+    const img = imgRef.current;
+
+    gsap.to(header, {
+      duration: 1,
+      opacity: 1,
+      ease: "none",
+    });
+
+    gsap.to(img, {
+      delay: 1,
+      duration: 1,
+      rotation: 360,
+    });
+
+    gsap.to(btn, {
+      delay: 5,
+      duration: 0.5,
+      opacity: 1,
+      ease: "none",
+    });
   });
 
   return (
@@ -45,9 +52,14 @@ function Artists(props) {
           id="artists-header"
           style={{ backgroundImage: `url(${splashImg})` }}
         >
-          <div id="artists-header-content">
+          <div ref={headerRef} id="artists-header-content">
             <h1>Artists</h1>
-            <img id="artists-header-img" src={vinylImg} alt="Vinyl"></img>
+            <img
+              ref={imgRef}
+              id="artists-header-img"
+              src={vinylImg}
+              alt="Vinyl"
+            ></img>
           </div>
         </header>
         <FilterOptions
