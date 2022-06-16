@@ -8,7 +8,6 @@ export default function ArtistList({
   searchInput,
   sort,
   sortDir,
-  isLoggedIn,
   setArtLength,
 }) {
   //genre filter
@@ -56,7 +55,7 @@ export default function ArtistList({
 
   //making our artists for our artistlist
   let artistsList = copySortedArtists.map((a) => (
-    <Artist key={a.name} artist={a} isLoggedIn={isLoggedIn} />
+    <Artist key={a.name} artist={a} />
   ));
 
   const artistListRef = useRef();

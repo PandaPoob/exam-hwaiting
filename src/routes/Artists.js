@@ -80,7 +80,6 @@ function Artists(props) {
           sort={sort}
           setSort={setSort}
           sortDir={sortDir}
-          isLoggedIn={props.isLoggedIn}
           setArtLength={setArtLength}
         ></ArtistList>
         {artLength >= 3 ? (

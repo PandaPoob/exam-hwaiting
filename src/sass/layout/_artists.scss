@@ -212,23 +212,6 @@
   }
 }
 
-#card-fav-btn {
-  background-color: #120a2da9;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  border: none;
-  border-radius: 2px;
-  padding: 0.2rem;
-  cursor: pointer;
-}
-#card-fav-icon {
-  max-width: 2.5rem;
-
-  padding: 0.4rem;
-}
-
 #artists-loading {
   color: vars.$white;
   text-align: center;

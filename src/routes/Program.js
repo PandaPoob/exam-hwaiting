@@ -35,12 +35,6 @@ export default function Program(props) {
         </header>
         <ProgramNav cleanSchedule={cleanSchedule}></ProgramNav>
         <MonProgram cleanSchedule={cleanSchedule}></MonProgram>
-        <TueProgram cleanSchedule={cleanSchedule}></TueProgram>
-        <WedProgram cleanSchedule={cleanSchedule}></WedProgram>
-        <ThuProgram cleanSchedule={cleanSchedule}></ThuProgram>
-        <FriProgram cleanSchedule={cleanSchedule}></FriProgram>
-        <SatProgram cleanSchedule={cleanSchedule}></SatProgram>
-        <SunProgram cleanSchedule={cleanSchedule}></SunProgram>
         <div id="pro-top-button-container">
           <Link
             to="program-main"
@@ -53,6 +47,12 @@ export default function Program(props) {
             Back to top
           </Link>
         </div>
+        <TueProgram cleanSchedule={cleanSchedule}></TueProgram>
+        <WedProgram cleanSchedule={cleanSchedule}></WedProgram>
+        <ThuProgram cleanSchedule={cleanSchedule}></ThuProgram>
+        <FriProgram cleanSchedule={cleanSchedule}></FriProgram>
+        <SatProgram cleanSchedule={cleanSchedule}></SatProgram>
+        <SunProgram cleanSchedule={cleanSchedule}></SunProgram>
       </main>
       <Footer></Footer>
     </>
