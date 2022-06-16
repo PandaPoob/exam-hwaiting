@@ -35,18 +35,18 @@ export default function Program(props) {
         </header>
         <ProgramNav cleanSchedule={cleanSchedule}></ProgramNav>
         <MonProgram cleanSchedule={cleanSchedule}></MonProgram>
-        <div id="pro-top-button-container">
-          <Link
-            to="program-main"
-            id="pro-top-button"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={300}
-          >
-            Back to top
-          </Link>
-        </div>
+
+        <Link
+          to="program-main"
+          id="pro-top-button"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={300}
+        >
+          Back to top
+        </Link>
+
         <TueProgram cleanSchedule={cleanSchedule}></TueProgram>
         <WedProgram cleanSchedule={cleanSchedule}></WedProgram>
         <ThuProgram cleanSchedule={cleanSchedule}></ThuProgram>
