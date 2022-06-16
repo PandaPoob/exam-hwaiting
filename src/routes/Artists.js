@@ -14,6 +14,9 @@ function Artists(props) {
   const [searchInput, setSearchInput] = useState("");
   const [sort, setSort] = useState("name");
   const [sortDir, setSortDir] = useState("asc");
+  const [artLength, setArtLength] = useState(0);
+
+  //console.log(artLength);
 
   gsap.registerPlugin(ScrollTrigger);
   const buttonRef = useRef();
@@ -78,20 +81,22 @@ function Artists(props) {
           setSort={setSort}
           sortDir={sortDir}
           isLoggedIn={props.isLoggedIn}
+          setArtLength={setArtLength}
         ></ArtistList>
-
-        <div id="art-top-button-container" ref={buttonRef}>
-          <Link
-            to="artists-main"
-            id="art-top-button"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={300}
-          >
-            <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
-          </Link>
-        </div>
+        {artLength >= 3 ? (
+          <div id="art-top-button-container" ref={buttonRef}>
+            <Link
+              to="artists-main"
+              id="art-top-button"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={300}
+            >
+              <img id="arrow-up-img" src={arrow} alt="arrow up"></img>
+            </Link>
+          </div>
+        ) : null}
       </main>
       <Footer></Footer>
     </>
