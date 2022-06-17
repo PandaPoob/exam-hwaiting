@@ -3,6 +3,7 @@ import FavArtist from "./FavArtist.js";
 import Footer from "../components/Footer";
 import heartImg from "../images/heart.svg";
 import sakuraImg from "../images/sakura.svg";
+import arrow from "../images/arrow_right.svg";
 
 export default function MyAccount({ fav, setFav }) {
   let favList = fav.map((a) => (
@@ -45,9 +46,13 @@ export default function MyAccount({ fav, setFav }) {
             </p>
             <div id="account-fav-links">
               <Link id="fav-artist-link" to="/artists">
-                Go to artists 🠮
+                <p> Go to artists</p>{" "}
+                <img className="fav-link-img" src={arrow} alt="artist img" />
               </Link>
-              <Link to="/program">Go to program 🠮</Link>
+              <Link id="fav-artist-link2" to="/program">
+                <p>Go to program</p>{" "}
+                <img className="fav-link-img" src={arrow} alt="artist img" />
+              </Link>
             </div>
           </div>
           <div>
