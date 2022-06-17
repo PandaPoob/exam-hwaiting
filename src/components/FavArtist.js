@@ -2,6 +2,7 @@ import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { Link } from "react-router-dom";
 import faved from "../images/faved.svg";
+import favHover from "../images/active-fav.svg";
 
 export default function FavArtist({ artist, fav, setFav }) {
   const favListCard = useRef();
@@ -60,6 +61,8 @@ export default function FavArtist({ artist, fav, setFav }) {
       <img
         id="favlist-heart-icon"
         src={faved}
+        onMouseOver={(e) => (e.currentTarget.src = favHover)}
+        onMouseLeave={(e) => (e.currentTarget.src = faved)}
         onClick={removeFav}
         alt="faved-icon"
       ></img>
