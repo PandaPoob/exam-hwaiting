@@ -25,7 +25,7 @@ export default function SatProgram({ cleanSchedule }) {
       <Link
         key={a.act}
         /* regex s is spaces, flag: g global and looks through whole string, "" is what we want to replace it with >nothing<  */
-        to={`/artists/${a.act.replace(/\s+/g, "+")}`}
+        to={`/artists/${a.act.replace(/\s+|[/]/g, "+")}`}
       >
         <li>
           <h3>{a.act}</h3>
@@ -45,7 +45,7 @@ export default function SatProgram({ cleanSchedule }) {
       <Link
         key={a.act}
         /* regex s is spaces, flag: g global and looks through whole string, "" is what we want to replace it with >nothing<  */
-        to={`/artists/${a.act.replace(/\s+/g, "+")}`}
+        to={`/artists/${a.act.replace(/\s+|[/]/g, "+")}`}
       >
         <li>
           <h3>{a.act}</h3>
@@ -65,7 +65,7 @@ export default function SatProgram({ cleanSchedule }) {
       <Link
         key={a.act}
         /* regex s is spaces, flag: g global and looks through whole string, "" is what we want to replace it with >nothing<  */
-        to={`/artists/${a.act.replace(/\s+/g, "+")}`}
+        to={`/artists/${a.act.replace(/\s+|[/]/g, "+")}`}
       >
         <li>
           <h3>{a.act}</h3>

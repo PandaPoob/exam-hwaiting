@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 import faved from "../images/faved.svg";
 
 export default function FavArtist({ artist, fav, setFav }) {
@@ -43,7 +44,14 @@ export default function FavArtist({ artist, fav, setFav }) {
 
   return (
     <article ref={favListCard} className="fav-card">
-      <h2>{artist.act}</h2>
+      <Link
+        key={artist.act}
+        /* regex s is spaces, flag: g global and looks through whole string, "" is what we want to replace it with >nothing<  */
+        to={`/artists/${artist.act.replace(/\s+|[/]/g, "+")}`}
+      >
+        <h2>{artist.act}</h2>
+      </Link>
+
       <hr></hr>
       <h3>{getFavDay()}</h3>
       <p>
