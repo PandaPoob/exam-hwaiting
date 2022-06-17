@@ -43,8 +43,57 @@ export default function FavArtist({ artist, fav, setFav }) {
     }
   }
 
+  function getFavBorder() {
+    if (artist.day === "mon") {
+      return "#FA00FF";
+    } else if (artist.day === "tue") {
+      return "#FF0057";
+    } else if (artist.day === "wed") {
+      return "#FF5B1D";
+    } else if (artist.day === "thu") {
+      return "#FFDD00";
+    } else if (artist.day === "fri") {
+      return "#32FF00";
+    } else if (artist.day === "sat") {
+      return "#5AFFFF";
+    } else if (artist.day === "sun") {
+      return "#8200FF";
+    }
+  }
+
+  function getFavBoxShadow() {
+    if (artist.day === "mon") {
+      return "0px 0px 4px 1px #FA00FF";
+    } else if (artist.day === "tue") {
+      return "0px 0px 4px 1px #FF0057";
+    } else if (artist.day === "wed") {
+      return "0px 0px 4px 1px #FF5B1D";
+    } else if (artist.day === "thu") {
+      return "0px 0px 4px 1px #FFDD00";
+    } else if (artist.day === "fri") {
+      return "0px 0px 4px 1px #32FF00";
+    } else if (artist.day === "sat") {
+      return "0px 0px 4px 1px #5AFFFF";
+    } else if (artist.day === "sun") {
+      return "0px 0px 4px 1px #8200FF";
+    }
+  }
+
   return (
-    <article ref={favListCard} className="fav-card">
+    <article
+      ref={favListCard}
+      className="fav-card"
+      style={
+        {
+          borderColor: getFavBorder(),
+          boxShadow: getFavBoxShadow(),
+        }
+
+        /*  props.artist.genre === "Boy group"
+              ? { color: "red" }
+              : { color: "blue" } */
+      }
+    >
       <Link
         key={artist.act}
         /* regex s is spaces, flag: g global and looks through whole string, "" is what we want to replace it with >nothing<  */
