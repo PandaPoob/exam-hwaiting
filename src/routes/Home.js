@@ -1,4 +1,7 @@
 import heroImg from "../images/splash1.webp";
+import kHeart from "../images/k_heart.svg";
+import stick from "../images/c.svg";
+import arrow from "../images/arrow_right.svg";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -68,6 +71,59 @@ export default function Home() {
             </Link>
           </div>
         </header>
+        <section id="landing-first-sec">
+          <div id="landing-first-txt">
+            <h3>Scandinavia's biggest K-pop festival!</h3>
+            <p>
+              Hwaiting festival's goal is to bring wonderful live performances
+              of K-pop to the North! Ever been sad about K-pop tours forgetting
+              about Scandinavia? Or maybe you are just curious about this new
+              music and artform? Whichever it is we promise to bring you an
+              amazing experince where we have gathered all the biggests K-pop
+              artists in one week in Denmark for you to experience. The festival
+              comes with outdoor camping and full access to all stages and
+              performances!
+            </p>
+          </div>
+          <div>
+            <img id="landing-heart-img" src={kHeart} alt="K-heart"></img>
+          </div>
+        </section>
+        <section id="landing-second-sec">
+          <h3>Become a volunteer</h3>
+          <p>
+            Do you wanna help and take part in Scandinavia's biggest k-pop
+            festival? Then join the volunteer program! Here you will join a
+            unique group of amazing people whose goal is to make Hwaiting
+            Festival the best there is. In Exchange for your hard work and you
+            will receive free access to the festival as long as you fulfill all
+            your duties and show up to all your shifts.
+          </p>
+          <button>Read More</button>
+        </section>
+        <section id="landing-third-sec">
+          <div id="landing-third-txt">
+            <h3>Scandinavia's biggest K-pop festival!</h3>
+            <p>
+              Hwaiting festival's goal is to bring wonderful live performances
+              of K-pop to the North! Ever been sad about K-pop tours forgetting
+              about Scandinavia? Or maybe you are just curious about this new
+              music and artform? Whichever it is we promise to bring you an
+              amazing experince where we have gathered all the biggests K-pop
+              artists in one week in Denmark for you to experience. The festival
+              comes with outdoor camping and full access to all stages and
+              performances!
+            </p>
+            <div id="fake-link">
+              {" "}
+              <p>More practical info</p>
+              <img className="fav-link-img" src={arrow} alt="artist img" />
+            </div>
+          </div>
+          <div>
+            <img id="landing-stick-img" src={stick} alt="lightstick"></img>
+          </div>
+        </section>
       </main>
       <Footer style={{ marginTop: "10rem" }}></Footer>
     </>
