@@ -1,11 +1,25 @@
 import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import FavArtist from "./FavArtist.js";
 import Footer from "../components/Footer";
 import heartImg from "../images/heart.svg";
 import sakuraImg from "../images/sakura.svg";
 import arrow from "../images/arrow_right.svg";
+import splashImg from "../images/subsplash.svg";
 
 export default function MyAccount({ fav, setFav }) {
+  const accHeaderRef = useRef();
+  useEffect(() => {
+    const accHeader = accHeaderRef.current;
+
+    gsap.to(accHeader, {
+      duration: 1,
+      opacity: 1,
+      ease: "none",
+    });
+  });
+
   let favList = fav.map((a) => (
     <FavArtist fav={fav} setFav={setFav} key={a.act} artist={a} />
   ));
@@ -32,9 +46,14 @@ export default function MyAccount({ fav, setFav }) {
   return (
     <>
       {" "}
-      <header id="account-header">
-        <h1>Profile</h1>
-        <img id="account-header-img" src={sakuraImg} alt="Sakura"></img>
+      <header
+        id="account-header"
+        style={{ backgroundImage: `url(${splashImg})` }}
+      >
+        <div id="account-header-content" ref={accHeaderRef}>
+          <h1>Profile</h1>
+          <img id="account-header-img" src={sakuraImg} alt="Sakura"></img>
+        </div>
       </header>
       <main>
         <section id="account-info">
