@@ -9,9 +9,33 @@ import SunProgram from "../components/programs/SunProgram";
 import Footer from "../components/Footer";
 import rainbowImg from "../images/rainbow.svg";
 import splashImg from "../images/subsplash.svg";
+import arrow from "../images/arrow_up.svg";
 import { Link } from "react-scroll";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 
 export default function Program(props) {
+  const proButtonRef = useRef();
+  const proHeaderRef = useRef();
+
+  useEffect(() => {
+    const proBtn = proButtonRef.current;
+    const proHeader = proHeaderRef.current;
+
+    gsap.to(proHeader, {
+      duration: 1,
+      opacity: 1,
+      ease: "none",
+    });
+
+    gsap.to(proBtn, {
+      delay: 4,
+      duration: 0.5,
+      opacity: 1,
+      ease: "none",
+    });
+  });
+
   //console.log(props.schedule);
   let cleanSchedule = [];
   //fjerner breaks fra schedule
@@ -28,24 +52,25 @@ export default function Program(props) {
           id="program-header"
           style={{ backgroundImage: `url(${splashImg})` }}
         >
-          <div id="program-header-content">
+          <div ref={proHeaderRef} id="program-header-content">
             <h1>Program</h1>
             <img id="program-header-img" src={rainbowImg} alt="Rainbow"></img>
           </div>
         </header>
         <ProgramNav cleanSchedule={cleanSchedule}></ProgramNav>
         <MonProgram cleanSchedule={cleanSchedule}></MonProgram>
-
-        <Link
-          to="program-main"
-          id="pro-top-button"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={300}
-        >
-          Back to top
-        </Link>
+        <div ref={proButtonRef} id="pro-btn-container">
+          <Link
+            to="program-main"
+            id="pro-top-button"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={300}
+          >
+            <img id="pro-arrow-up-img" src={arrow} alt="arrow up"></img>
+          </Link>
+        </div>
 
         <TueProgram cleanSchedule={cleanSchedule}></TueProgram>
         <WedProgram cleanSchedule={cleanSchedule}></WedProgram>

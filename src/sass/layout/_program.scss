@@ -20,6 +20,7 @@
   margin-inline: 1rem;
   display: flex;
   gap: 0.5rem;
+  opacity: 0;
 
   @include mixins.bp-medium {
     //margin-block: 6rem;
@@ -427,24 +428,25 @@
 }
  */
 #pro-top-button {
-  position: sticky;
-  top: 90%;
-  left: 70%;
-  width: 10rem;
+  position: fixed;
+  bottom: 100px;
+  left: 85%;
   font-size: 1rem;
+  cursor: pointer;
   background-color: vars.$neonpink;
   padding-block: 0.6rem;
   padding-inline: 0.8rem;
   border-radius: 5px;
   z-index: 5;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 
   @include mixins.bp-medium {
-    left: 80%;
+    left: 90%;
   }
 
   @include mixins.bp-large {
-    left: 85%;
+    left: 93%;
   }
 
   @include mixins.bp-huge {
@@ -452,6 +454,16 @@
   }
 
   &:hover {
-    box-shadow: 0px 0px 4px 2px vars.$lightneonpink;
+    box-shadow: 0px 0px 4px 1px vars.$lightneonpink;
   }
+}
+
+#pro-arrow-up-img {
+  position: relative;
+  max-width: 1rem;
+  z-index: 6;
+}
+
+#pro-btn-container {
+  opacity: 0;
 }

@@ -258,6 +258,8 @@
   padding-inline: 0.8rem;
   border-radius: 5px;
   z-index: 5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 
   @include mixins.bp-medium {
     right: 10%;
@@ -267,6 +269,10 @@
   }
   @include mixins.bp-huge {
     right: 10%;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 4px 1px vars.$lightneonpink;
   }
 }
 

@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-scroll";
 import ArtistList from "../components/ArtistList";
 import FilterOptions from "../components/FilterOptions";
@@ -18,7 +17,6 @@ function Artists(props) {
 
   //console.log(artLength);
 
-  gsap.registerPlugin(ScrollTrigger);
   const buttonRef = useRef();
   const headerRef = useRef();
   const imgRef = useRef();
@@ -41,7 +39,7 @@ function Artists(props) {
     });
 
     gsap.to(btn, {
-      delay: 5,
+      delay: 4,
       duration: 0.5,
       opacity: 1,
       ease: "none",
