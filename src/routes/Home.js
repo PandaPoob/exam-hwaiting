@@ -103,7 +103,7 @@ export default function Home() {
         </section>
         <section id="landing-third-sec">
           <div id="landing-third-txt">
-            <h3>The Camping experience!</h3>
+            <h3>The camping experience!</h3>
             <p>
               Hwaiting festival is an outdoor festival. This means that your
               ticket includes a camping spot. It is not mandatory for you to
