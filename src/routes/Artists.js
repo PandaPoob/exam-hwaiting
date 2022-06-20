@@ -80,7 +80,7 @@ function Artists(props) {
           sortDir={sortDir}
           setArtLength={setArtLength}
         ></ArtistList>
-        {artLength >= 3 ? (
+        {artLength >= 4 ? (
           <div id="art-top-button-container" ref={buttonRef}>
             <Link
               to="artists-main"
