@@ -103,16 +103,16 @@ export default function Home() {
         </section>
         <section id="landing-third-sec">
           <div id="landing-third-txt">
-            <h3>Scandinavia's biggest K-pop festival!</h3>
+            <h3>The Camping experience!</h3>
             <p>
-              Hwaiting festival's goal is to bring wonderful live performances
-              of K-pop to the North! Ever been sad about K-pop tours forgetting
-              about Scandinavia? Or maybe you are just curious about this new
-              music and artform? Whichever it is we promise to bring you an
-              amazing experince where we have gathered all the biggests K-pop
-              artists in one week in Denmark for you to experience. The festival
-              comes with outdoor camping and full access to all stages and
-              performances!
+              Hwaiting festival is an outdoor festival. This means that your
+              ticket includes a camping spot. It is not mandatory for you to
+              occupy this spot, but it is part of the festival and the
+              experience! So be sure to check the weather forecast and pack
+              accordingly. With our camping experience, you will however, be
+              able to be on site for a whole week so you won't have to bother
+              with transport back and fourth every day since every concert is
+              walking distance!
             </p>
             <div id="fake-link">
               {" "}
